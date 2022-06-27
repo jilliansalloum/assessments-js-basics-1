@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = "Git is a program used locally to store source code. The code can then be uploaded to github."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,6 +20,8 @@
 
 //CODE HERE
 
+const gitHubDefinition = "Github is a website that stores repositories, like a cloud for code. It is often used for collaboration."
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +29,8 @@
 */
 
 //CODE HERE
+
+const gitInitDefinition = "The command git init initializes a repository. It turns a directory into a repository. "
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +40,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = "The command git clone is used if you want a copy of an existing git repository. "
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +49,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "The command git status displays the state of the working directory. It lets you see which files are or aren't being tracked by Git, and the changes."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +63,10 @@
 
 //CODE HERE
 
+const gitAddDefinition = "The command git add will add a change in the working directory to the staging area, telling git that you are about to add updates."
+
+const gitAddCode = "If you want to add all your files to git you use the command 'git add -a'."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +78,9 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "The command git commit captures a snapshot of the projects currently staged changes that git wont change unless asked to."
+
+const gitCommitCode = `git commit -m"initial commit"`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +89,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "the git command git push will upload your local repository content to a remote repository, updating git hub."
